@@ -1,0 +1,34 @@
+{
+  "name": "@danielbayerlein/caniuse-yarn",
+  "version": "1.0.0",
+  "description": "Can I use Yarn? Checks if Yarn is available.",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "eslint --format=node_modules/eslint-formatter-pretty .",
+    "test": "npm run lint && jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danielbayerlein/caniuse-yarn.git"
+  },
+  "keywords": [
+    "yarn",
+    "npm"
+  ],
+  "author": "Daniel Bayerlein",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danielbayerlein/caniuse-yarn/issues"
+  },
+  "homepage": "https://github.com/danielbayerlein/caniuse-yarn#readme",
+  "dependencies": {
+    "shelljs": "^0.7.4"
+  },
+  "devDependencies": {
+    "eslint": "^3.8.1",
+    "eslint-config-airbnb-base": "^9.0.0",
+    "eslint-formatter-pretty": "^1.1.0",
+    "eslint-plugin-import": "^2.0.1",
+    "jest": "^16.0.1"
+  }
+}

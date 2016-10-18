@@ -1,0 +1,5 @@
+/node_modules
+/.eslintrc.yml
+/.travis.yml
+/.npmignore
+/__tests__
