@@ -1,7 +1,7 @@
 {
   "name": "@danielbayerlein/caniuse-yarn",
   "version": "1.0.0",
-  "description": "Can I use Yarn? Check if Yarn is available.",
+  "description": "Can I use Yarn? caniuse-yarn checks if Yarn is available.",
   "main": "lib/index.js",
   "scripts": {
     "lint": "eslint --format=node_modules/eslint-formatter-pretty .",

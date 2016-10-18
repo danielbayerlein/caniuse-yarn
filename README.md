@@ -3,7 +3,7 @@
 [![npm version](https://badge.fury.io/js/%40danielbayerlein%2Fcaniuse-yarn.svg)](https://badge.fury.io/js/%40danielbayerlein%2Fcaniuse-yarn)
 [![Build Status](https://travis-ci.org/danielbayerlein/caniuse-yarn.svg?branch=master)](https://travis-ci.org/danielbayerlein/caniuse-yarn)
 
-**caniuse-yarn** check if [Yarn](https://github.com/yarnpkg/yarn) is available.
+**caniuse-yarn** checks if [Yarn](https://github.com/yarnpkg/yarn) is available.
 
 ## Installation
 
