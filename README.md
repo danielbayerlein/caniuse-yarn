@@ -21,7 +21,7 @@ $ npm install @danielbayerlein/caniuse-yarn --save
 
 ```javascript
 const caniuseYarn = require('@danielbayerlein/caniuse-yarn')();
-console.log(caniuseYarn ? 'yarn' : 'npm');
+console.log(caniuseYarn ? 'Yes' : 'No');
 ```
 
 ## Contributing
