@@ -3,7 +3,7 @@ const spawn = require('child_process').spawn;
 
 describe('cli', () => {
   it('should return true or false', (done) => {
-    spawn('./cli.js')
+    spawn('./bin/cli.js')
       .on('error', (err) => {
         expect(err).toBeNull();
       })

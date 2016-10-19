@@ -4,7 +4,7 @@
   "description": "Can I use Yarn? caniuse-yarn checks if Yarn is available.",
   "main": "lib/index.js",
   "bin": {
-    "caniuse-yarn": "cli.js"
+    "caniuse-yarn": "bin/cli.js"
   },
   "scripts": {
     "lint": "eslint --format=node_modules/eslint-formatter-pretty .",
