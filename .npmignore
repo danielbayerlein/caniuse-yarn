@@ -2,5 +2,6 @@
 /node_modules
 /.eslintrc.yml
 /.travis.yml
+/.eslintignore
 /.npmignore
 /__tests__
