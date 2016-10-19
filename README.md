@@ -7,7 +7,7 @@
 
 ## Installation
 
-### library
+### Library
 
 ```bash
 $ yarn add @danielbayerlein/caniuse-yarn
@@ -19,7 +19,7 @@ or
 $ npm install @danielbayerlein/caniuse-yarn --save
 ```
 
-### cli
+### Cli
 
 ```bash
 $ yarn global add @danielbayerlein/caniuse-yarn
@@ -33,14 +33,14 @@ $ npm install @danielbayerlein/caniuse-yarn --global
 
 ## Usage
 
-### library
+### Library
 
 ```javascript
 const caniuseYarn = require('caniuse-yarn')();
 console.log(caniuseYarn ? 'yarn' : 'npm');
 ```
 
-### cli
+### Cli
 ```bash
 $ caniuse-yarn
 ```
