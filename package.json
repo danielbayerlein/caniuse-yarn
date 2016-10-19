@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Can I use Yarn? caniuse-yarn checks if Yarn is available.",
   "main": "lib/index.js",
+  "bin": {
+    "caniuse-yarn": "cli.js"
+  },
   "scripts": {
     "lint": "eslint --format=node_modules/eslint-formatter-pretty .",
     "test": "npm run lint && jest",
@@ -23,6 +26,7 @@
   },
   "homepage": "https://github.com/danielbayerlein/caniuse-yarn#readme",
   "dependencies": {
+    "commander": "^2.9.0",
     "shelljs": "^0.7.4"
   },
   "devDependencies": {
