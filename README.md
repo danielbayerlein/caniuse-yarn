@@ -19,7 +19,7 @@ or
 $ npm install @danielbayerlein/caniuse-yarn --save
 ```
 
-### Cli
+### CLI
 
 ```bash
 $ yarn global add @danielbayerlein/caniuse-yarn
@@ -40,7 +40,7 @@ const caniuseYarn = require('@danielbayerlein/caniuse-yarn')();
 console.log(caniuseYarn ? 'Yes' : 'No');
 ```
 
-### Cli
+### CLI
 ```bash
 $ caniuse-yarn
 ```
