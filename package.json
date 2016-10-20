@@ -9,6 +9,7 @@
   "scripts": {
     "lint": "eslint --format=node_modules/eslint-formatter-pretty .",
     "test": "npm run lint && jest",
+    "prepush": "npm test",
     "postpublish": "greenkeeper-postpublish"
   },
   "repository": {
@@ -35,6 +36,7 @@
     "eslint-formatter-pretty": "^1.1.0",
     "eslint-plugin-import": "^2.0.1",
     "greenkeeper-postpublish": "^1.0.1",
+    "husky": "^0.11.9",
     "jest": "^16.0.1"
   }
 }
