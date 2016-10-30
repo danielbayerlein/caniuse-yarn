@@ -28,15 +28,15 @@
   "homepage": "https://github.com/danielbayerlein/caniuse-yarn#readme",
   "dependencies": {
     "commander": "^2.9.0",
-    "shelljs": "^0.7.4"
+    "shelljs": "^0.7.5"
   },
   "devDependencies": {
-    "eslint": "^3.8.1",
+    "eslint": "^3.9.0",
     "eslint-config-airbnb-base": "^9.0.0",
     "eslint-formatter-pretty": "^1.1.0",
     "eslint-plugin-import": "^2.0.1",
     "greenkeeper-postpublish": "^1.0.1",
     "husky": "^0.11.9",
-    "jest": "^16.0.1"
+    "jest": "^16.0.2"
   }
 }
