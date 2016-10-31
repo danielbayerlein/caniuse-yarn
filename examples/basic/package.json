@@ -9,6 +9,6 @@
   "author": "Daniel Bayerlein",
   "license": "MIT",
   "dependencies": {
-    "@danielbayerlein/caniuse-yarn": "^1.0.0"
+    "@danielbayerlein/caniuse-yarn": "file:../.."
   }
 }
