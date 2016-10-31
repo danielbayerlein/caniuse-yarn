@@ -7,4 +7,4 @@ programm
   .version(pkg.version)
   .parse(process.argv);
 
-process.stdout.write(caniuseYarn().toString());
+process.exit(caniuseYarn() ? 0 : 1);
