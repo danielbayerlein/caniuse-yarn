@@ -3,7 +3,6 @@ describe('caniuseYarn', () => {
   const shelljs = require('shelljs'); // eslint-disable-line global-require
 
   beforeEach(() => {
-    jest.clearAllMocks();
     shelljs.which = jest.fn();
   });
 
