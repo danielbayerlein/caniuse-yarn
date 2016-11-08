@@ -1,5 +1,3 @@
-/* global jest describe it expect beforeEach */
-
 describe('caniuseYarn', () => {
   const caniuseYarn = require('../lib'); // eslint-disable-line global-require
   const shelljs = require('shelljs'); // eslint-disable-line global-require
