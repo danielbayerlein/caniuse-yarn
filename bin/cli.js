@@ -1,9 +1,9 @@
 #!/usr/bin/env node
-const programm = require('commander');
+const program = require('commander');
 const caniuseYarn = require('../lib');
 const pkg = require('../package.json');
 
-programm
+program
   .version(pkg.version)
   .parse(process.argv);
 
