@@ -1,4 +1,3 @@
-/* global describe it expect */
 const spawn = require('child_process').spawn;
 
 describe('cli', () => {
