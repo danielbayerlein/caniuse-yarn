@@ -1,6 +1,5 @@
 /coverage
 /examples
-/node_modules
 /.eslintrc.yml
 /.travis.yml
 /.eslintignore
