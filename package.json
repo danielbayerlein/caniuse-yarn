@@ -27,7 +27,8 @@
   "homepage": "https://github.com/danielbayerlein/caniuse-yarn#readme",
   "dependencies": {
     "commander": "^2.9.0",
-    "shelljs": "^0.7.4"
+    "shelljs": "^0.7.4",
+    "update-notifier": "^1.0.2"
   },
   "devDependencies": {
     "eslint": "^3.8.1",
