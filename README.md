@@ -41,11 +41,7 @@ console.log(caniuseYarn ? 'Yes' : 'No');
 ```
 
 ### CLI
-```bash
-$ caniuse-yarn
-```
 
-### Cli
 ```bash
 $ caniuse-yarn
 ```
