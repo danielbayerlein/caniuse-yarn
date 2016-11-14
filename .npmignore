@@ -1,5 +1,7 @@
-/node_modules
+/coverage
+/examples
 /.eslintrc.yml
 /.travis.yml
+/.eslintignore
 /.npmignore
 /__tests__

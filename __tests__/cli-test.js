@@ -1,4 +1,3 @@
-/* global jest describe it expect beforeEach */
 const spawn = require('child_process').spawn;
 
 describe('cli', () => {

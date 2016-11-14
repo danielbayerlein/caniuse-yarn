@@ -1,0 +1,14 @@
+{
+  "name": "cli",
+  "version": "1.0.0",
+  "description": "CLI example for caniuse-yarn",
+  "scripts": {
+    "start": "caniuse-yarn && echo \"Yes\" || echo \"No\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Bayerlein",
+  "license": "MIT",
+  "dependencies": {
+    "@danielbayerlein/caniuse-yarn": "file:../.."
+  }
+}

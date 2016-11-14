@@ -7,8 +7,10 @@
     "caniuse-yarn": "bin/cli.js"
   },
   "scripts": {
+    "coverage": "jest --coverage",
     "lint": "eslint --format=node_modules/eslint-formatter-pretty .",
     "test": "npm run lint && jest",
+    "prepush": "npm test",
     "postpublish": "greenkeeper-postpublish"
   },
   "repository": {
@@ -27,15 +29,16 @@
   "homepage": "https://github.com/danielbayerlein/caniuse-yarn#readme",
   "dependencies": {
     "commander": "^2.9.0",
-    "shelljs": "^0.7.4",
+    "shelljs": "^0.7.5",
     "update-notifier": "^1.0.2"
   },
   "devDependencies": {
-    "eslint": "^3.8.1",
-    "eslint-config-airbnb-base": "^9.0.0",
+    "eslint": "^3.10.0",
+    "eslint-config-airbnb-base": "^10.0.1",
     "eslint-formatter-pretty": "^1.1.0",
-    "eslint-plugin-import": "^2.0.1",
+    "eslint-plugin-import": "^2.2.0",
     "greenkeeper-postpublish": "^1.0.1",
-    "jest": "^16.0.1"
+    "husky": "^0.11.9",
+    "jest": "^17.0.0"
   }
 }
