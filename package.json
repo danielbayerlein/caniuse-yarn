@@ -1,6 +1,6 @@
 {
   "name": "@danielbayerlein/caniuse-yarn",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Can I use Yarn? caniuse-yarn checks if Yarn is available.",
   "main": "lib/index.js",
   "bin": {
