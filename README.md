@@ -10,25 +10,21 @@
 ### Library
 
 ```bash
-$ yarn add @danielbayerlein/caniuse-yarn
-```
+# npm
+npm install @danielbayerlein/caniuse-yarn --save
 
-or
-
-```bash
-$ npm install @danielbayerlein/caniuse-yarn --save
+# Yarn
+yarn add @danielbayerlein/caniuse-yarn
 ```
 
 ### CLI
 
 ```bash
-$ yarn global add @danielbayerlein/caniuse-yarn
-```
+# npm
+npm install @danielbayerlein/caniuse-yarn --global
 
-or
-
-```bash
-$ npm install @danielbayerlein/caniuse-yarn --global
+# Yarn
+yarn global add @danielbayerlein/caniuse-yarn
 ```
 
 ## Usage
@@ -43,7 +39,7 @@ console.log(caniuseYarn ? 'Yes' : 'No');
 ### CLI
 
 ```bash
-$ caniuse-yarn
+caniuse-yarn
 ```
 
 ## Contributing
