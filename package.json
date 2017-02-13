@@ -7,7 +7,6 @@
     "caniuse-yarn": "bin/cli.js"
   },
   "scripts": {
-    "coverage": "jest --coverage",
     "lint": "eslint --format=node_modules/eslint-formatter-pretty .",
     "test": "npm run lint && jest",
     "prepush": "npm test"
@@ -38,6 +37,11 @@
     "eslint-plugin-import": "^2.2.0",
     "husky": "^0.13.1",
     "jest": "^18.1.0"
+  },
+  "jest": {
+    "bail": true,
+    "collectCoverage": true,
+    "collectCoverageFrom": ["**/{lib,bin}/*.js"]
   },
   "publishConfig": {
     "access": "public"
