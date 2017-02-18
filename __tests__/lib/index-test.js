@@ -1,5 +1,5 @@
 describe('caniuseYarn', () => {
-  const caniuseYarn = require('../lib'); // eslint-disable-line global-require
+  const caniuseYarn = require('../../lib'); // eslint-disable-line global-require
   const shelljs = require('shelljs'); // eslint-disable-line global-require
 
   beforeEach(() => {
