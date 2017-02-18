@@ -6,6 +6,11 @@ describe('caniuseYarn', () => {
     shelljs.which = jest.fn();
   });
 
+  test('call shelljs.which with "yarn"', () => {
+    caniuseYarn();
+    expect(shelljs.which).toBeCalledWith('yarn');
+  });
+
   test('returns true if yarn is available', () => {
     shelljs.which.mockReturnValue(true);
     expect(caniuseYarn()).toBeTruthy();
