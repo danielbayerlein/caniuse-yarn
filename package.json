@@ -28,7 +28,7 @@
   "dependencies": {
     "commander": "^2.9.0",
     "shelljs": "^0.7.6",
-    "update-notifier": "^2.0.0"
+    "update-notifier": "^2.1.0"
   },
   "devDependencies": {
     "eslint": "^3.15.0",
