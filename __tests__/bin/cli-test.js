@@ -1,43 +1,43 @@
 jest.mock('../../package.json', () => ({
   name: 'caniuse-yarn',
-  version: '1.0.0',
-}));
+  version: '1.0.0'
+}))
 
-const program = require('commander');
-const updateNotifier = require('update-notifier');
+const program = require('commander')
+const updateNotifier = require('update-notifier')
 
 describe('cli.js', () => {
-  let caniuseYarn;
+  let caniuseYarn
 
   beforeEach(() => {
-    program.version = jest.fn().mockReturnThis();
-    program.parse = jest.fn();
-    updateNotifier.notify = jest.fn();
-    process.exit = jest.fn();
+    program.version = jest.fn().mockReturnThis()
+    program.parse = jest.fn()
+    updateNotifier.notify = jest.fn()
+    process.exit = jest.fn()
 
-    jest.mock('../../lib');
-    caniuseYarn = require('../../lib'); // eslint-disable-line global-require
-  });
+    jest.mock('../../lib')
+    caniuseYarn = require('../../lib')
+  })
 
   afterEach(() => {
-    jest.resetAllMocks();
-    jest.resetModules();
-  });
+    jest.resetAllMocks()
+    jest.resetModules()
+  })
 
   test('program.version returns the current package version', () => {
-    require('../../bin/cli'); // eslint-disable-line global-require
-    expect(program.version).toBeCalledWith('1.0.0');
-  });
+    require('../../bin/cli')
+    expect(program.version).toBeCalledWith('1.0.0')
+  })
 
   test('call process.exit with "0" if yarn is availible', () => {
-    caniuseYarn.mockImplementation(() => true);
-    require('../../bin/cli'); // eslint-disable-line global-require
-    expect(process.exit).toBeCalledWith(0);
-  });
+    caniuseYarn.mockImplementation(() => true)
+    require('../../bin/cli')
+    expect(process.exit).toBeCalledWith(0)
+  })
 
   test('call process.exit with "1" if yarn is not availible', () => {
-    caniuseYarn.mockImplementation(() => false);
-    require('../../bin/cli'); // eslint-disable-line global-require
-    expect(process.exit).toBeCalledWith(1);
-  });
-});
+    caniuseYarn.mockImplementation(() => false)
+    require('../../bin/cli')
+    expect(process.exit).toBeCalledWith(1)
+  })
+})
