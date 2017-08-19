@@ -44,9 +44,9 @@
     ]
   },
   "standard": {
-    "env": {
-      "jest": true
-    }
+    "env": [
+      "jest"
+    ]
   },
   "publishConfig": {
     "access": "public"
