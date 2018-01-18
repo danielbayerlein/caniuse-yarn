@@ -26,13 +26,13 @@
   },
   "homepage": "https://github.com/danielbayerlein/caniuse-yarn#readme",
   "dependencies": {
-    "commander": "^2.12.2",
-    "shelljs": "^0.7.8",
+    "commander": "^2.13.0",
+    "shelljs": "^0.8.0",
     "update-notifier": "^2.3.0"
   },
   "devDependencies": {
     "husky": "^0.14.3",
-    "jest": "^22.0.4",
+    "jest": "^22.1.2",
     "snazzy": "^7.0.0",
     "standard": "^10.0.3"
   },
