@@ -1,10 +1,10 @@
 # caniuse-yarn
 
 [![npm version](https://badge.fury.io/js/%40danielbayerlein%2Fcaniuse-yarn.svg)](https://badge.fury.io/js/%40danielbayerlein%2Fcaniuse-yarn)
-[![Build Status](https://travis-ci.org/danielbayerlein/caniuse-yarn.svg?branch=master)](https://travis-ci.org/danielbayerlein/caniuse-yarn)
-[![codecov](https://codecov.io/gh/danielbayerlein/caniuse-yarn/branch/master/graph/badge.svg)](https://codecov.io/gh/danielbayerlein/caniuse-yarn)
+[![Actions Status](https://github.com/danielbayerlein/caniuse-yarn/workflows/CI/badge.svg)](https://github.com/danielbayerlein/caniuse-yarn/actions)
+[![Codecov](https://codecov.io/gh/danielbayerlein/caniuse-yarn/branch/master/graph/badge.svg)](https://codecov.io/gh/danielbayerlein/caniuse-yarn)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
-[![Greenkeeper badge](https://badges.greenkeeper.io/danielbayerlein/caniuse-yarn.svg)](https://greenkeeper.io/)
+[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=danielbayerlein/caniuse-yarn)](https://dependabot.com)
 
 **caniuse-yarn** checks if [Yarn](https://github.com/yarnpkg/yarn) is available.
 
