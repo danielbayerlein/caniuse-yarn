@@ -1,7 +1,7 @@
 /coverage
 /examples
 /.eslintrc.yml
-/.travis.yml
 /.eslintignore
+/.github
 /.npmignore
 /__tests__
