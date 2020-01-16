@@ -30,7 +30,7 @@
     "update-notifier": "^4.0.0"
   },
   "devDependencies": {
-    "husky": "^3.0.2",
+    "husky": "^4.0.10",
     "jest": "^24.8.0",
     "snazzy": "^8.0.0",
     "standard": "^14.3.1"
