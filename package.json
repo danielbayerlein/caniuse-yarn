@@ -33,7 +33,7 @@
     "husky": "^4.2.3",
     "jest": "^27.0.1",
     "snazzy": "^9.0.0",
-    "standard": "^16.0.0"
+    "standard": "^17.0.0"
   },
   "jest": {
     "bail": true,
